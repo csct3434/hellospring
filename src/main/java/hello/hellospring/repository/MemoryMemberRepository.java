@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
-@Repository     // 스프링이 container에 repository로 등록시켜줌
 public class MemoryMemberRepository implements MemberRepository {
 
     private static Map<Long, Member> store = new HashMap<>();

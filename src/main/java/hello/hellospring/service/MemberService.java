@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service    // 스프링이 container에 해당 클래스를 service로 등록시켜줌
 public class MemberService {
 
     private final MemberRepository memberRepository;
